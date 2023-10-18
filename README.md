@@ -58,7 +58,7 @@ The predictive model in this project is built using machine learning techniques.
 
 ## Future Works
 
-- [] Deploy on cloud platform GCP/AWS
+- [ ] Deploy on cloud platform GCP/AWS
 
 ---
 
