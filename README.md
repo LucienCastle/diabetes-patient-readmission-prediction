@@ -56,6 +56,10 @@ The dataset used in this project is available in the ![uciml directory](https://
 
 The predictive model in this project is built using machine learning techniques. We experiment with various algorithms, including logistic regression, decision trees, and random forests and many more. The trained models are evaluated based on performance metrics such as accuracy, precision, recall, and F1-score.
 
+## Future Works
+
+- [] Deploy on cloud platform GCP/AWS
+
 ---
 
 **Disclaimer:** This project is for educational and research purposes only. It should not be used as a substitute for medical advice or diagnosis. Always consult with a qualified healthcare professional for medical decisions and treatments.
