@@ -50,11 +50,11 @@ You can run these notebooks step by step to understand and interact with the pro
 
 ## Data
 
-The dataset used in this project is available in the ![uciml directory](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008). It contains patient information, including demographics, medical history, and medications. The target variable is whether a patient was readmitted within 30 days. The dataset is in CSV format.
+The dataset used in this project is available in the [uciml directory](https://archive.ics.uci.edu/dataset/296/diabetes+130-us+hospitals+for+years+1999-2008). It contains patient information, including demographics, medical history, and medications. The target variable is whether a patient was readmitted within 30 days. The dataset is in CSV format.
 
 ## Model
 
-The predictive model in this project is built using machine learning techniques. We experiment with various algorithms, including logistic regression, decision trees, and random forests and many more. The trained models are evaluated based on performance metrics such as accuracy, precision, recall, and F1-score.
+The predictive model in this project is built using machine learning techniques. We experiment with various algorithms, including logistic regression, decision trees, and random forests, and many more. The trained models are evaluated based on performance metrics such as accuracy, precision, recall, and F1-score.
 
 ## Future Works
 
