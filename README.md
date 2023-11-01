@@ -45,8 +45,32 @@ pip install -r requirements.txt
 Once you have installed the required dependencies, you can use the provided Jupyter notebooks to explore the project:
 
 - `readmission-prediction.ipynb`: Explore and preprocess the dataset and Train and evaluate machine learning models for readmission prediction.
+- `readmission-prediction-AutoML.ipynb`: Train and evaluate ML models using AutoML tools such as auto-sklearn and H2O. Make sure to run and generate cleaned data using the previous notebook.
 
 You can run these notebooks step by step to understand and interact with the project.
+
+## H2O
+
+[H2O](https://h2o.ai/platform/h2o-automl/) is an open-source, in-memory, distributed, fast, and scalable machine learning and predictive analytics platform that allows you to build machine learning models on big data and provides easy productionalization of those models in an enterprise environment.
+
+### Features
+- Distributed and parallel computing to handle big data.
+- Easy-to-use high-level API for users of all skill levels.
+- Supports common machine learning algorithms such as generalized linear models, gradient boosting machines, random forests, deep learning, and more.
+- Provides a web-based flow UI for building, tuning, and validating models.
+
+For detailed installation instructions and documentation, please visit the [H2O Documentation](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html?_ga=2.215970066.409413489.1698871231-1649498783.1698871231).
+
+## auto-sklearn
+
+[auto-sklearn](https://automl.github.io/auto-sklearn/master/) is an automated machine learning toolkit and a drop-in replacement for a scikit-learn estimator. It is based on Bayesian optimization to find the best machine learning pipeline for a given dataset.
+
+## Features
+
+- Automatic model selection and hyperparameter tuning.
+- Integration with scikit-learn, making it easy to use and extend.
+- Support for regression and classification tasks.
+- Ability to specify constraints and custom hyperparameter settings.
 
 ## Data
 
@@ -58,6 +82,9 @@ The predictive model in this project is built using machine learning techniques.
 
 ## Future Works
 
+- [x] Added AutoML functionality
+- [ ] Change notebook to .py files
+- [ ] Add CLI functionality
 - [ ] Deploy on cloud platform GCP/AWS
 
 ---
